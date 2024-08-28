@@ -1,0 +1,34 @@
+.description {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.descriptionTitleDiv {
+  margin-right: 90px;
+}
+
+.descTitle {
+  font-size: 42px;
+}
+
+.descList {
+  display: flex;
+  gap: 10px;
+}
+
+.descItem {display: flex;flex-direction: column;gap: 20px;
+}
+
+.descItemTitle {
+  font-size: 24px;
+}
+
+.descItemBtn{
+    color: #e58411;
+    display: flex;
+    align-items: center;
+}
