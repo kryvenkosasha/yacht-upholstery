@@ -1,4 +1,5 @@
 import Description from "../../components/Description/Description";
+import ExperienceSection from "../../components/ExperienceSection/ExperienceSection";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
@@ -16,6 +17,7 @@ function HomePage() {
       </div>
       <Description />
       <Works />
+      <ExperienceSection />
       <Reviews />
       <Footer />
     </>

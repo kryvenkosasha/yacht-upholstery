@@ -1,0 +1,50 @@
+.worksSection {
+  background-color: #f7f7f7;
+
+  padding: 50px 10px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.worksTitle {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.worksList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.worksItem {
+  padding: 20px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.worksItem img {
+  width: 220px;
+  height: 260px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.worksItem p {
+  margin-bottom: 20px;
+}
+
+.moreBtn {
+  color: #e58411;
+  max-width: 70px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
