@@ -3,6 +3,8 @@ import image2 from "../../images/old-seat.jpg";
 import image3 from "../../images/leather.jpg";
 import image4 from "../../images/materials.jpg";
 
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
+
 import styles from "./ExperienceSection.module.css";
 
 export default function ExperienceSection() {
@@ -14,7 +16,7 @@ export default function ExperienceSection() {
         </div>
         <div className={styles.experienceText}>
           <h5>DOŚWIADCZENIE</h5>
-          <h2>Zapewniamy Najlepsze Doświadczenie</h2>
+          <h3>Zapewniamy Najlepsze Doświadczenie</h3>
           <p>
             Nie musisz się martwić o najmniejsze szczegóły, ponieważ wszyscy
             nasi specjaliści to profesjonaliści w swoich dziedzinach, którzy z
@@ -22,7 +24,7 @@ export default function ExperienceSection() {
             na rynku.
           </p>
           <a href="#more" className={styles.moreLink}>
-            więcej
+            Więcej <HiOutlineArrowLongRight />
           </a>
         </div>
       </div>
@@ -30,14 +32,14 @@ export default function ExperienceSection() {
       <div className={styles.materialsContent}>
         <div className={styles.materialsText}>
           <h5>MATERIAŁY</h5>
-          <h2>Bardzo Poważne Materiały Do Produkcji Mebli</h2>
+          <h3>Bardzo Poważne Materiały</h3>
           <p>
             Używamy tylko najwyższej jakości materiałów dostępnych na rynku,
             zapewniając wyjątkową trwałość i luksusowy wygląd, który przetrwa
             lata.
           </p>
           <a href="#more" className={styles.moreLink}>
-            więcej
+            Więcej <HiOutlineArrowLongRight />
           </a>
         </div>
         <div className={styles.materialsImages}>
