@@ -2,6 +2,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { GoStarFill } from "react-icons/go";
+
 import image1 from "../../images/Marek/yacht 7.jpg";
 import image2 from "../../images/Marek/fotel 4.jpg";
 import image3 from "../../images/Marek/pillow 3.jpg";
@@ -94,11 +96,20 @@ export default function Reviews() {
           <div key={index} className={styles.reviewsItem}>
             <div className={styles.imageContainer}>
               <img src={review.image} alt="" />
-            </div>{" "}
-            <div className={styles.review}>
-              <div className={styles.reviewerImgContainer}><img src={review.reviewerImage} alt="" /></div>
-              <h4>{review.name}</h4>
-              <p>{review.review}</p>
+            </div>
+            <div className={styles.reviewContainer}>
+              <div className={styles.review}>
+                <div className={styles.reviewerImgContainer}>
+                  <img src={review.reviewerImage} alt="" />
+                </div>
+                <h4>{review.name}</h4>
+                <p>{review.review}</p>
+                <div className={styles.reviewGrade}>
+                  {Array.from({ length: review.grade }).map((_, i) => (
+                    <GoStarFill key={i} color="#e58411" />
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         ))}
