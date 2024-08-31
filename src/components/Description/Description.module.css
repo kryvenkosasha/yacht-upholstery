@@ -1,14 +1,14 @@
 .description {
-  max-width: 1280px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .descriptionTitleDiv {
-  margin-right: 90px;
 }
 
 .descTitle {
@@ -17,18 +17,38 @@
 
 .descList {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
-.descItem {display: flex;flex-direction: column;gap: 20px;
+.descItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .descItemTitle {
   font-size: 24px;
 }
 
-.descItemBtn{
-    color: #e58411;
-    display: flex;
-    align-items: center;
+.descItemBtn {
+  color: #e58411;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .description {
+    max-width: 1280px;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  .descriptionTitleDiv {
+    margin-right: 90px;
+  }
+
+  .descList {
+    flex-direction: row;
+  }
 }

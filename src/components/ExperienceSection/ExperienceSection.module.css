@@ -1,18 +1,19 @@
 .experienceSection {
-  max-width: 1280px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  /* gap: 100px; */
   padding: 50px 10px;
 }
 
 .experienceContent,
 .materialsContent {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -22,11 +23,12 @@
 
 .materialsImages {
   display: flex;
-  gap: 60px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .experienceImage img {
-  width: 600px;
+  width: 280px;
   object-position: center;
   object-fit: cover;
   border-radius: 15px;
@@ -36,12 +38,11 @@
 .materialsImages div {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 
 .experienceText,
 .materialsText {
-  max-width: 550px;
 }
 
 .experienceText h5,
@@ -66,7 +67,8 @@
 
 .moreLink {
   color: #e58411;
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .moreLink:hover {
@@ -75,21 +77,76 @@
 
 .carImage {
   width: 200px;
+  object-fit: cover;
   border-radius: 15px;
   box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
 }
 
 .leatherImage {
   width: 200px;
+  object-fit: cover;
   border-radius: 15px;
   box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
 }
 
 .materialsImage {
-  width: 600px;
+  width: 250px;
   height: 400px;
   border-radius: 15px;
   object-fit: cover;
-  margin-top: 100px;
   box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
+}
+
+@media screen and (min-width: 1280px) {
+  .experienceSection {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 100px;
+    padding: 50px 10px;
+  }
+
+  .experienceContent,
+  .materialsContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .experienceImage img {
+    width: 600px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
+  }
+
+  .experienceText,
+  .materialsText {
+    max-width: 550px;
+  }
+
+  .materialsImage {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 100px;
+    box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
+  }
+
+  .materialsImages {
+    gap: 60px;
+    flex-direction: row;
+  }
+
+  .materialsImages div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 }
