@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Description.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
@@ -21,9 +22,9 @@ export default function Description() {
             używając tylko najlepszych materiałów. Gwarantujemy trwałość i
             elegancję, która przetrwa lata.
           </p>
-          <a href="" className={styles.descItemBtn}>
+          <Link to="/oferta" className={styles.descItemBtn}>
             Więcej <HiOutlineArrowLongRight size="25px" />
-          </a>
+          </Link>
         </li>
 
         <li className={styles.descItem}>
@@ -33,9 +34,9 @@ export default function Description() {
             Twoich potrzeb, aby zapewnić pełną satysfakcję i idealne dopasowanie
             do Twojego stylu.
           </p>
-          <a href="" className={styles.descItemBtn}>
+          <Link to="/oferta" className={styles.descItemBtn}>
             Więcej <HiOutlineArrowLongRight size="25px" />
-          </a>
+          </Link>
         </li>
 
         <li className={styles.descItem}>
@@ -47,9 +48,9 @@ export default function Description() {
             doświadczeniem w branży. Możesz być pewny, że Twoje zlecenie jest w
             dobrych rękach.
           </p>
-          <a href="" className={styles.descItemBtn}>
+          <Link to="/oferta" className={styles.descItemBtn}>
             Więcej <HiOutlineArrowLongRight size="25px" />
-          </a>
+          </Link>
         </li>
       </ul>
     </section>

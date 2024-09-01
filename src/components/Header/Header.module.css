@@ -1,6 +1,11 @@
-.header{
-    display: flex;
-    justify-content: space-around;
+.header {
+  display: flex;
+  justify-content: space-around;
 }
 
-.navList{display: flex;gap: 15px;}
+.navList {
+  display: flex;
+  gap: 15px;
+}
+
+#navItem a.active{ color: #e58411;}

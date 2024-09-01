@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,20 +11,14 @@ export default function Header() {
       </div>
       <nav>
         <ul className={styles.navList}>
-          <li>
-            <a href="#hero">Strona główna</a>
+          <li className={styles.navItem}>
+            <NavLink to="/">Strona główna</NavLink>
           </li>
-          <li>
-            <a href="#description">O nas</a>
+          <li className={styles.navItem}>
+            <NavLink to="/oferta">Oferta</NavLink>
           </li>
-          <li>
-            <a href="#works">Nasze prace</a>
-          </li>
-          <li>
-            <a href="#reviews">Opinie</a>
-          </li>
-          <li>
-            <a href="#footer">Kontakt</a>
+          <li className={styles.navItem}>
+            <NavLink to="/roboty">Nasze roboty</NavLink>
           </li>
         </ul>
       </nav>

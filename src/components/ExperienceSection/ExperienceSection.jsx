@@ -3,6 +3,8 @@ import image2 from "../../images/old-seat.jpg";
 import image3 from "../../images/leather.jpg";
 import image4 from "../../images/materials.jpg";
 
+import { Link } from "react-router-dom";
+
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 import styles from "./ExperienceSection.module.css";
@@ -23,9 +25,9 @@ export default function ExperienceSection() {
             pasją i zaangażowaniem pracują z najlepszymi materiałami dostępnymi
             na rynku.
           </p>
-          <a href="#more" className={styles.moreLink}>
+          <Link to="/oferta" className={styles.moreLink}>
             Więcej <HiOutlineArrowLongRight />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -38,9 +40,9 @@ export default function ExperienceSection() {
             zapewniając wyjątkową trwałość i luksusowy wygląd, który przetrwa
             lata.
           </p>
-          <a href="#more" className={styles.moreLink}>
+          <Link to="/oferta" className={styles.moreLink}>
             Więcej <HiOutlineArrowLongRight />
-          </a>
+          </Link>
         </div>
         <div className={styles.materialsImages}>
           <div>

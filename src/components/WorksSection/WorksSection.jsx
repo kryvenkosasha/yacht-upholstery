@@ -7,6 +7,7 @@ import { GoStarFill } from "react-icons/go";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 import styles from "./WorksSection.module.css";
+import { Link } from "react-router-dom";
 
 export default function Works() {
   return (
@@ -67,9 +68,9 @@ export default function Works() {
             </div>
           </li>
         </ul>
-        <a href="" className={styles.moreBtn}>
+        <Link to='/roboty' className={styles.moreBtn}>
           Więcej <HiOutlineArrowLongRight />
-        </a>
+        </Link>
       </div>
     </section>
   );
