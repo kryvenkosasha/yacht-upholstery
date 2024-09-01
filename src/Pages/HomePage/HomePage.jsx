@@ -16,8 +16,8 @@ function HomePage() {
         <HeroSection />
       </div>
       <Description />
-      <Works />
       <ExperienceSection />
+      <Works />
       <Reviews />
       <Footer />
     </>

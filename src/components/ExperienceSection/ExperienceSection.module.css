@@ -97,6 +97,22 @@
   box-shadow: 13px 10px 30px -1px rgba(66, 68, 90, 1);
 }
 
+@media screen and (min-width: 768px){
+   .experienceSection {
+    max-width: 768px;gap: 50px;
+  }
+
+  .experienceContent,
+.materialsContent {
+  flex-direction: row;
+}
+
+.materialsImages {
+  flex-direction: row;
+}
+
+}
+
 @media screen and (min-width: 1280px) {
   .experienceSection {
     max-width: 1280px;

@@ -1,5 +1,5 @@
 .hero {
-  padding: 30px 10px;
+  padding: 30px 10px 55px;
 }
 
 .heroContent {
@@ -39,6 +39,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding: 90px 55px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -47,21 +50,21 @@
   }
 
   .heroTitle {
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #fff;
-}
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+  }
 
-.heroDesc {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.6;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 20px;
-}
+  .heroDesc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
 }

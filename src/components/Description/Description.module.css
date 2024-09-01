@@ -37,6 +37,24 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .description {
+    max-width: 768px;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .descList {
+    flex-direction: row;
+  }
+
+  .descItem {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .description {
     max-width: 1280px;
