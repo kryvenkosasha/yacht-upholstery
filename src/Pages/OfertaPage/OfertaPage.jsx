@@ -1,12 +1,13 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import styles from "./OfertaPage.module.css";
 
 export default function OfertaPage() {
   return (
-    <div>
-      <Header/>
+    <div className={styles.container}>
+      <Header />
 
-      <section>
+      <section className={styles.section}>
         <h2>Tapicerka Jachtów</h2>
         <p>
           Nasza firma specjalizuje się w kompleksowej tapicerce jachtów, która
@@ -21,7 +22,7 @@ export default function OfertaPage() {
         </p>
       </section>
 
-      <section>
+      <section className={styles.section}>
         <h2>Tapicerka Samochodów</h2>
         <p>
           Nasze usługi tapicerskie dla samochodów są skierowane do właścicieli
@@ -36,7 +37,7 @@ export default function OfertaPage() {
         </p>
       </section>
 
-      <section>
+      <section className={styles.section}>
         <h2>Indywidualne Projekty</h2>
         <p>
           Rozumiemy, że każdy klient ma swoje unikalne potrzeby i oczekiwania.
@@ -51,7 +52,7 @@ export default function OfertaPage() {
         </p>
       </section>
 
-      <section>
+      <section className={styles.section}>
         <h2>Renowacja Klasycznych Auta</h2>
         <p>
           Jesteśmy pasjonatami motoryzacji, a szczególnie klasycznych
@@ -66,7 +67,7 @@ export default function OfertaPage() {
         </p>
       </section>
 
-     <Footer/>
+      <Footer />
     </div>
   );
 }
