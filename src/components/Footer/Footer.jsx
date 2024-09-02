@@ -38,7 +38,7 @@ export default function Footer() {
             <p>Telefon: +48 123 456 789</p>
             <div className={styles.mapContainer}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2202.8654573369345!2d20.946591776185112!3d52.402225444943205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb8124bfefe5f%3A0xd6197dd03aec351c!2sAVIOTEX!5e1!3m2!1sru!2spl!4v1725184226253!5m2!1sru!2spl"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.2455701219656!2d20.94659177618511!3d52.402225444943205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb8124bfefe5f%3A0xd6197dd03aec351c!2sAVIOTEX!5e0!3m2!1spl!2spl!4v1725266282534!5m2!1spl!2spl"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
