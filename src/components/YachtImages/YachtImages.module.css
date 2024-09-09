@@ -1,0 +1,33 @@
+.section {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.imagesList {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagesItem {
+}
+
+.image {
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 27px 6px 24px -22px rgba(66, 68, 90, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    max-width: 1280px;
+  }
+}
